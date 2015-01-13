@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8455A70F1A639964002A3E4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455A70E1A639964002A3E4F /* AppDelegate.m */; };
+		8455A7111A639964002A3E4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455A7101A639964002A3E4F /* main.m */; };
+		8455A7141A639964002A3E4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455A7131A639964002A3E4F /* ViewController.m */; };
+		8455A7161A639965002A3E4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8455A7151A639965002A3E4F /* Images.xcassets */; };
+		8455A7191A639965002A3E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8455A7171A639965002A3E4F /* Main.storyboard */; };
+		8455A7251A639965002A3E4F /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455A7241A639965002A3E4F /* _______Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8455A71F1A639965002A3E4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8455A7001A639964002A3E4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8455A7071A639964002A3E4F;
+			remoteInfo = "代码行数计算器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8455A7081A639964002A3E4F /* 代码行数计算器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "代码行数计算器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8455A70C1A639964002A3E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8455A70D1A639964002A3E4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8455A70E1A639964002A3E4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8455A7101A639964002A3E4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8455A7121A639964002A3E4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8455A7131A639964002A3E4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8455A7151A639965002A3E4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8455A7181A639965002A3E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8455A71E1A639965002A3E4F /* 代码行数计算器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "代码行数计算器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8455A7231A639965002A3E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8455A7241A639965002A3E4F /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8455A7051A639964002A3E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8455A71B1A639965002A3E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8455A6FF1A639964002A3E4F = {
+			isa = PBXGroup;
+			children = (
+				8455A70A1A639964002A3E4F /* 代码行数计算器 */,
+				8455A7211A639965002A3E4F /* 代码行数计算器Tests */,
+				8455A7091A639964002A3E4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8455A7091A639964002A3E4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8455A7081A639964002A3E4F /* 代码行数计算器.app */,
+				8455A71E1A639965002A3E4F /* 代码行数计算器Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8455A70A1A639964002A3E4F /* 代码行数计算器 */ = {
+			isa = PBXGroup;
+			children = (
+				8455A70D1A639964002A3E4F /* AppDelegate.h */,
+				8455A70E1A639964002A3E4F /* AppDelegate.m */,
+				8455A7121A639964002A3E4F /* ViewController.h */,
+				8455A7131A639964002A3E4F /* ViewController.m */,
+				8455A7151A639965002A3E4F /* Images.xcassets */,
+				8455A7171A639965002A3E4F /* Main.storyboard */,
+				8455A70B1A639964002A3E4F /* Supporting Files */,
+			);
+			path = "代码行数计算器";
+			sourceTree = "<group>";
+		};
+		8455A70B1A639964002A3E4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8455A70C1A639964002A3E4F /* Info.plist */,
+				8455A7101A639964002A3E4F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8455A7211A639965002A3E4F /* 代码行数计算器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8455A7241A639965002A3E4F /* _______Tests.m */,
+				8455A7221A639965002A3E4F /* Supporting Files */,
+			);
+			path = "代码行数计算器Tests";
+			sourceTree = "<group>";
+		};
+		8455A7221A639965002A3E4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8455A7231A639965002A3E4F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8455A7071A639964002A3E4F /* 代码行数计算器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8455A7281A639965002A3E4F /* Build configuration list for PBXNativeTarget "代码行数计算器" */;
+			buildPhases = (
+				8455A7041A639964002A3E4F /* Sources */,
+				8455A7051A639964002A3E4F /* Frameworks */,
+				8455A7061A639964002A3E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "代码行数计算器";
+			productName = "代码行数计算器";
+			productReference = 8455A7081A639964002A3E4F /* 代码行数计算器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8455A71D1A639965002A3E4F /* 代码行数计算器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8455A72B1A639965002A3E4F /* Build configuration list for PBXNativeTarget "代码行数计算器Tests" */;
+			buildPhases = (
+				8455A71A1A639965002A3E4F /* Sources */,
+				8455A71B1A639965002A3E4F /* Frameworks */,
+				8455A71C1A639965002A3E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8455A7201A639965002A3E4F /* PBXTargetDependency */,
+			);
+			name = "代码行数计算器Tests";
+			productName = "代码行数计算器Tests";
+			productReference = 8455A71E1A639965002A3E4F /* 代码行数计算器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8455A7001A639964002A3E4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = zwk;
+				TargetAttributes = {
+					8455A7071A639964002A3E4F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					8455A71D1A639965002A3E4F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 8455A7071A639964002A3E4F;
+					};
+				};
+			};
+			buildConfigurationList = 8455A7031A639964002A3E4F /* Build configuration list for PBXProject "代码行数计算器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8455A6FF1A639964002A3E4F;
+			productRefGroup = 8455A7091A639964002A3E4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8455A7071A639964002A3E4F /* 代码行数计算器 */,
+				8455A71D1A639965002A3E4F /* 代码行数计算器Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8455A7061A639964002A3E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8455A7161A639965002A3E4F /* Images.xcassets in Resources */,
+				8455A7191A639965002A3E4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8455A71C1A639965002A3E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8455A7041A639964002A3E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8455A7141A639964002A3E4F /* ViewController.m in Sources */,
+				8455A7111A639964002A3E4F /* main.m in Sources */,
+				8455A70F1A639964002A3E4F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8455A71A1A639965002A3E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8455A7251A639965002A3E4F /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8455A7201A639965002A3E4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8455A7071A639964002A3E4F /* 代码行数计算器 */;
+			targetProxy = 8455A71F1A639965002A3E4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8455A7171A639965002A3E4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8455A7181A639965002A3E4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8455A7261A639965002A3E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8455A7271A639965002A3E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8455A7291A639965002A3E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "代码行数计算器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8455A72A1A639965002A3E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "代码行数计算器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8455A72C1A639965002A3E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "代码行数计算器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/代码行数计算器.app/Contents/MacOS/代码行数计算器";
+			};
+			name = Debug;
+		};
+		8455A72D1A639965002A3E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "代码行数计算器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/代码行数计算器.app/Contents/MacOS/代码行数计算器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8455A7031A639964002A3E4F /* Build configuration list for PBXProject "代码行数计算器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8455A7261A639965002A3E4F /* Debug */,
+				8455A7271A639965002A3E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8455A7281A639965002A3E4F /* Build configuration list for PBXNativeTarget "代码行数计算器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8455A7291A639965002A3E4F /* Debug */,
+				8455A72A1A639965002A3E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8455A72B1A639965002A3E4F /* Build configuration list for PBXNativeTarget "代码行数计算器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8455A72C1A639965002A3E4F /* Debug */,
+				8455A72D1A639965002A3E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8455A7001A639964002A3E4F /* Project object */;
+}
